@@ -1,0 +1,50 @@
+{
+    "pk": {
+      "S": "CAP#${CREDIT_APPLICATION_ID}"
+    },
+    "sk": {
+      "S": "PID"
+    },
+    "createdDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "lastModifiedDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "creditApplicationId": {
+      "S": "${CREDIT_APPLICATION_ID}"
+    },
+    "prospectId": {
+      "S": "${PROSPECT_ID}"
+    },
+    "firstName": {
+      "S": "${PROSPECT_IDENTITY_FIRST_NAME}"
+    },
+    "paternalLastName": {
+      "S": "${PROSPECT_IDENTITY_PATERNAL_LAST_NAME}"
+    },
+    "maternalLastName": {
+      "S": "${PROSPECT_IDENTITY_MATERNAL_LAST_NAME}"
+    },
+    "gender": {
+      "S": "${PROSPECT_IDENTITY_GENDER}"
+    },
+    "birthDate": {
+      "S": "${PROSPECT_IDENTITY_BIRTH_DATE}"
+    },
+    "curp": {
+      "S": "${PROSPECT_IDENTITY_CURP}"
+    },
+    "country": {
+      "S": "${PROSPECT_IDENTITY_COUNTRY}"
+    },
+    "nationality": {
+      "S": "${PROSPECT_IDENTITY_NATIONALITY}"
+    },
+    "rfc": {
+      "S": "${PROSPECT_IDENTITY_RFC}"
+    },
+    "modifiedByUser": {
+      "BOOL": ${PROSPECT_IDENTITY_MODIFIED_BY_USER}
+    }
+  }

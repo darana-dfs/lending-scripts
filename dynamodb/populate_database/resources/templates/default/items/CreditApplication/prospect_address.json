@@ -1,0 +1,47 @@
+{
+    "pk": {
+      "S": "CAP#${CREDIT_APPLICATION_ID}"
+    },
+    "sk": {
+      "S": "PAD"
+    },
+    "createdDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "lastModifiedDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "creditApplicationId": {
+      "S": "${CREDIT_APPLICATION_ID}"
+    },
+    "prospectId": {
+      "S": "${PROSPECT_ID}"
+    },
+    "streetName": {
+      "S": "${PROSPECT_ADDRESS_STREET_NAME}"
+    },
+    "exteriorNumber": {
+      "S": "${PROSPECT_ADDRESS_EXTERIOR_NUMBER}"
+    },
+    "interiorNumber": {
+      "S": "${PROSPECT_ADDRESS_INTERIOR_NUMBER}"
+    },
+    "state": {
+      "S": "${PROSPECT_ADDRESS_STATE}"
+    },
+    "postalCode": {
+      "S": "${PROSPECT_ADDRESS_POSTAL_CODE}"
+    },
+    "colony": {
+      "S": "${PROSPECT_ADDRESS_COLONY}"
+    },
+    "city": {
+      "S": "${PROSPECT_ADDRESS_CITY}"
+    },
+    "municipality": {
+      "S": "${PROSPECT_ADDRESS_MUNICIPALITY}"
+    },
+    "modifiedByUser": {
+      "BOOL": ${PROSPECT_ADDRESS_MODIFIED_BY_USER}
+    }
+  }

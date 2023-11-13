@@ -1,0 +1,39 @@
+
+{
+    "pk": {
+      "S": "CAP#${CREDIT_APPLICATION_ID}"
+    },
+    "sk": {
+      "S": "CAD"
+    },
+    "createdDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "lastModifiedDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "creditApplicationId": {
+      "S": "${CREDIT_APPLICATION_ID}"
+    },
+    "prospectId": {
+      "S": "${PROSPECT_ID}"
+    },
+    "status": {
+      "S": "${CREDIT_APPLICATION_INVOICE}"
+    },
+    "status": {
+      "S": "${CREDIT_APPLICATION_STATUS}"
+    },
+    "subStatus": {
+      "S": "${CREDIT_APPLICATION_SUBSTATUS}"
+    },
+    "userEmail": {
+      "S": "${USER_EMAIL}"
+    },
+    "userPhone": {
+      "S": "${USER_PHONE}"
+    },
+    "userOcupation": {
+      "S": "Comercio/Ventas"
+    }
+  }

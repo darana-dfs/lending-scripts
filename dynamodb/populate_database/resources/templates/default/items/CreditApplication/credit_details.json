@@ -1,0 +1,65 @@
+{
+    "pk": {
+      "S": "CAP#${CREDIT_APPLICATION_ID}"
+    },
+    "sk": {
+      "S": "CDE"
+    },
+    "createdDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "lastModifiedDateTime": {
+      "S": "2021-09-12T13:00:05Z"
+    },
+    "creditApplicationId": {
+      "S": "${CREDIT_APPLICATION_ID}"
+    },
+    "prospectId": {
+      "S": "${PROSPECT_ID}"
+    },
+    "availableAmount": {
+      "S": "${CREDIT_AVAILABLE_AMOUNT}"
+    },
+    "paymentTermUnit": {
+      "S": "${CREDIT_PAYTERM_UNIT}"
+    },
+    "paymentTermValue": {
+      "S": "${CREDIT_PAYTERM_VALUE}"
+    },
+    "interestRate": {
+      "S": "${CREDIT_INTEREST_RATE}"
+    },
+    "cashWithdrawalFee": {
+      "S": "${CREDIT_CASH_WITHDRAWAL_FEE}"
+    },
+    "creditApproval": {
+      "BOOL": ${CREDIT_APPROVAL}
+    },
+    "operationDate": {
+      "S": "${CREDIT_OPERATION_DATE}"
+    },
+    "isUserBeneficialOwner": {
+      "BOOL": ${CREDIT_IS_USER_BENEFICIAL_OWNER}
+    },
+    "isOwnerDocumentationAvailable": {
+      "BOOL": ${CREDIT_IS_OWNER_DOCUMENTATION_AVAILABLE}
+    },
+    "provider": {
+      "S": "${CREDIT_PROVIDER}"
+    },
+    "channel": {
+      "S": "${CREDIT_CHANNEL}"
+    },
+    "commisionRate": {
+      "S": "${CREDIT_COMMISSION_RATE}"
+    },
+    "productId": {
+      "S": "${CREDIT_PRODUCT_ID}"
+    },
+    "creditArrangementId": {
+      "S": "${CREDIT_ARRANGEMENT_ID}"
+    },
+    "accountId": {
+      "S": "${CREDIT_ACCOUNT_ID}"
+    }
+  }
