@@ -1,12 +1,12 @@
 {
   "currentStep": {
-    "S": "STEP_4"
+    "S": "STEP_5"
   },
   "prospectId": {
     "S": "${USER_ID}"
   },
   "stepMap": {
-    "S": "{\"STEP_5\":{\"required\":true,\"status\":\"NOT_STARTED\"},\"STEP_4\":{\"required\":true,\"status\":\"IN_PROGRESS\"},\"STEP_3\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_2\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_1\":{\"required\":true,\"status\":\"COMPLETED\"}}"
+    "S": "{\"STEP_5\":{\"required\":true,\"status\":\"IN_PROGRESS\"},\"STEP_4\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_3\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_2\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_1\":{\"required\":true,\"status\":\"COMPLETED\"}}"
   },
   "lastModifiedDateTime": {
     "S": "2023-12-28T18:06:06.509116Z"
