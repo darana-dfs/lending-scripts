@@ -1,0 +1,60 @@
+{
+  "interestRate": {
+    "N": "0"
+  },
+  "prospectId": {
+    "S": "${USER_ID}"
+  },
+  "businessUnit": {
+    "S": "1"
+  },
+  "lastModifiedDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "channel": {
+    "S": "TenderoS"
+  },
+  "createdDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "commisionRate": {
+    "N": "0.8621"
+  },
+  "paymentTermValue": {
+    "N": "1"
+  },
+  "isUserBeneficialOwner": {
+    "BOOL": true
+  },
+  "productId": {
+    "S": "TdS_Pto_Lun_Rev"
+  },
+  "creditApproval": {
+    "BOOL": false
+  },
+  "sk": {
+    "S": "CDE"
+  },
+  "isOwnerDocumentationAvailable": {
+    "BOOL": false
+  },
+  "paymentTermUnit": {
+    "S": "WEEKS"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "operationDate": {
+    "S": "2019-01-01"
+  },
+  "availableAmount": {
+    "N": "14000"
+  },
+  "cashWithdrawalFee": {
+    "N": "0.1"
+  },
+  
+}

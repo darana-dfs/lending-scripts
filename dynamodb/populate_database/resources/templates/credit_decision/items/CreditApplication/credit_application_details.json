@@ -1,0 +1,41 @@
+{
+  "prospectId": {
+    "S": "${USER_ID}"
+  },
+  "lastModifiedDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "userPhone": {
+    "S": "+527418529630"
+  },
+  "createdDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "preOfferId": {
+    "S": "98070e17-2dc5-44c7-bc6c-fb5a7ce6ac93"
+  },
+  "subStatus": {
+    "S": "DECISION_ENGINE"
+  },
+  "userOcupation": {
+    "S": "Comercio/Ventas"
+  },
+  "sk": {
+    "S": "CAD"
+  },
+  "userEmail": {
+    "S": "abc@abc.com"
+  },
+  "invoice": {
+    "S": "${INVOICE}"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "status": {
+    "S": "ACEPTADA"
+  }
+}

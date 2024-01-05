@@ -1,0 +1,53 @@
+{
+  "country": {
+    "S": "MEX"
+  },
+  "prospectId": {
+    "S": "${USER_ID}"
+  },
+  "lastModifiedDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "gender": {
+    "S": "M"
+  },
+  "createdDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "birthDate": {
+    "S": "1980-08-01"
+  },
+  "rfc": {
+    "S": "GACJ800801"
+  },
+  "maternalLastName": {
+    "S": "CRUZ"
+  },
+  "firstName": {
+    "S": "JORGE GERSON"
+  },
+  "validUser": {
+    "BOOL": true
+  },
+  "nationality": {
+    "S": "MEX"
+  },
+  "modifiedByUser": {
+    "BOOL": false
+  },
+  "sk": {
+    "S": "PID"
+  },
+  "paternalLastName": {
+    "S": "GARCIA"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "curp": {
+    "S": "GACJ800801HDFRRR03"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "economicDependents": {
+    "S": "ECONOMIC_DEPENDENTS_1"
+  },
+  "prospectId": {
+    "S": "${USER_ID}"
+  },
+  "housingType": {
+    "S": "HOUSING_TYPE_1"
+  },
+  "lastModifiedDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "sk": {
+    "S": "PHO"
+  },
+  "createdDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "tenancyLength": {
+    "S": "TENANCY_LENGTH_1"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  }
+}

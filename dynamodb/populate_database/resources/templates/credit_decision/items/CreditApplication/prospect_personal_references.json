@@ -1,0 +1,26 @@
+{
+    "prospectId": {
+      "S": "${USER_ID}"
+    },
+    "lastModifiedDateTime": {
+      "S": "2023-12-28T17:51:41.114248Z"
+    },
+    "references": {
+      "S": "[{\"fullName\":\"ALAN EDUARDO ARANA\",\"relationship\":\"AMIGO\",\"contactInfo\":{\"phone\":\"322110445\",\"countryCode\":\"MX\"}},{\"fullName\":\"DIEGO ARMANDO ARANA\",\"relationship\":\"AMIGO\",\"contactInfo\":{\"phone\":\"3221356645\",\"countryCode\":\"MX\"}}]"
+    },
+    "modifiedByUser": {
+      "BOOL": false
+    },
+    "sk": {
+      "S": "PPR"
+    },
+    "createdDateTime": {
+      "S": "2023-12-28T17:51:41.114248Z"
+    },
+    "pk": {
+      "S": "CAP#${CREDIT_APPLICATION_ID}"
+    },
+    "creditApplicationId": {
+      "S": "${CREDIT_APPLICATION_ID}"
+    }
+  }

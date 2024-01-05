@@ -1,0 +1,26 @@
+{
+  "prospectId": {
+    "S": "${USER_ID}"
+  },
+  "interviewId": {
+    "S": "658db5ad31e05f44de18f167"
+  },
+  "lastModifiedDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "sk": {
+    "S": "ISE"
+  },
+  "createdDateTime": {
+    "S": "2023-12-28T17:51:41.114248Z"
+  },
+  "configurationId": {
+    "S": "64c061ce0b928dda370df0b7"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  }
+}
