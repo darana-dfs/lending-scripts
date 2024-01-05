@@ -88,6 +88,7 @@ def parse_item(item_path, context):
         item_template = clean_raw_json(item_file.read())
         item = Template(item_template).substitute(clean_context)
         item = replace_dict_values(item, {"\"null\"": "null"})
+        print("Parsed Item \n" + item)
         return clean_parsed_item(json.loads(item))
     
 def parse_table(table_path):
