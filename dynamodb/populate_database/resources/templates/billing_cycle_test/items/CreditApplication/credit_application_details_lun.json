@@ -1,0 +1,41 @@
+{
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "prospectId": {
+    "S": "auth0|65a0485a6d5a0f83e71ef348"
+  },
+  "userEmail": {
+    "S": "ivan.paz@spinbyoxxo.com.mx"
+  },
+  "status": {
+    "S": "ACEPTADO"
+  },
+  "preOfferId": {
+    "S": "73fca383-443c-4407-860e-3d3d37e17570"
+  },
+  "lastModifiedDateTime": {
+    "S": "2024-01-13T01:02:01.075961445Z"
+  },
+  "userOcupation": {
+    "S": "Comercio/Ventas"
+  },
+  "userPhone": {
+    "S": "+529531062024"
+  },
+  "subStatus": {
+    "S": "DECISION_ENGINE"
+  },
+  "sk": {
+    "S": "CAD"
+  },
+  "invoice": {
+    "S": "0000000147"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "createdDateTime": {
+    "S": "2024-01-12T23:14:13.526166961Z"
+  }
+}

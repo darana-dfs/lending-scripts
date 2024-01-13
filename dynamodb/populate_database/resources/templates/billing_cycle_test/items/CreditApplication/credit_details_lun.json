@@ -1,0 +1,65 @@
+{
+  "gsi1sk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}#CDE"
+  },
+  "operationDate": {
+    "S": "2023-09-07"
+  },
+  "availableAmount": {
+    "N": "14000"
+  },
+  "commisionRate": {
+    "N": "1"
+  },
+  "paymentTermUnit": {
+    "S": "WEEKS"
+  },
+  "channel": {
+    "S": "TenderoS"
+  },
+  "businessUnit": {
+    "S": "1"
+  },
+  "cashWithdrawalFee": {
+    "N": "1"
+  },
+  "isOwnerDocumentationAvailable": {
+    "BOOL": false
+  },
+  "paymentTermValue": {
+    "N": "1"
+  },
+  "sk": {
+    "S": "CDE"
+  },
+  "provider": {
+    "S": "Pronto"
+  },
+  "creditApproval": {
+    "BOOL": true
+  },
+  "productId": {
+    "S": "${PRODUCT_ID}"
+  },
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "prospectId": {
+    "S": "auth0|65a0485a6d5a0f83e71ef348"
+  },
+  "interestRate": {
+    "N": "0"
+  },
+  "isUserBeneficialOwner": {
+    "BOOL": false
+  },
+  "lastModifiedDateTime": {
+    "S": "2021-09-12T13:00:05Z"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "createdDateTime": {
+    "S": "2021-09-12T13:00:05Z"
+  }
+}

@@ -86,6 +86,7 @@ def parse_item(item_path, context):
     clean_context = get_clean_context(context)
     with open(item_path) as item_file:
         item_template = clean_raw_json(item_file.read())
+        print("Raw Item \n" + item_template)
         item = Template(item_template).substitute(clean_context)
         item = replace_dict_values(item, {"\"null\"": "null"})
         print("Parsed Item \n" + item)

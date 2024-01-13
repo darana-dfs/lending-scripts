@@ -1,0 +1,26 @@
+{
+  "creditApplicationId": {
+    "S": "${CREDIT_APPLICATION_ID}"
+  },
+  "currentStep": {
+    "S": "STEP_5"
+  },
+  "prospectId": {
+    "S": "auth0|65a0485a6d5a0f83e71ef348"
+  },
+  "lastModifiedDateTime": {
+    "S": "2024-01-12T23:14:13.526166961Z"
+  },
+  "sk": {
+    "S": "SDE"
+  },
+  "pk": {
+    "S": "CAP#${CREDIT_APPLICATION_ID}"
+  },
+  "stepMap": {
+    "S": "{\"STEP_5\":{\"required\":true,\"status\":\"IN_PROGRESS\"},\"STEP_4\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_3\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_2\":{\"required\":true,\"status\":\"COMPLETED\"},\"STEP_1\":{\"required\":true,\"status\":\"COMPLETED\"}}"
+  },
+  "createdDateTime": {
+    "S": "2024-01-12T23:14:13.526166961Z"
+  }
+}
